@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env -S node --no-deprecation
 
 const { saveClipboardImage } = require('../index');
 const yargs = require('yargs/yargs');
@@ -29,7 +29,7 @@ const argv = yargs(hideBin(process.argv))
     description: 'Output format (png, jpg, jpeg, bmp)',
     default: 'png'
   })
-  .version('1.1.0')
+  .version('1.2.0')
   .alias('version', 'v')
   .help()
   .alias('help', 'h')

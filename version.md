@@ -1,5 +1,14 @@
 # ClipImage Version History
 
+## Version 1.2.0 (2025-09-02)
+### Bug Fixes
+- Fixed punycode deprecation warning in WSL environment by adding --no-deprecation flag to Node.js execution
+- Added punycode package override to prevent deprecation warnings from dependencies
+
+### Documentation
+- Updated README.md with clear instructions for global installation from local directory
+- Added installation instructions for both npm registry and local development scenarios
+
 ## Version 1.1.0 (2025-08-29)
 ### New Features
 - Added support for `-v` flag as an alias for `--version`

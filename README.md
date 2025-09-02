@@ -4,9 +4,25 @@ A simple CLI tool to save clipboard images to files.
 
 ## Installation
 
+### From npm registry (when published)
+
 ```bash
 npm install -g clipimage
 ```
+
+### From local directory (for development)
+
+For Windows PowerShell or WSL:
+
+```bash
+# Navigate to the project directory
+cd /path/to/ClipImageToFile
+
+# Install globally from current directory
+npm install -g .
+```
+
+After installation, you can use `clipimage` command from anywhere.
 
 ## Usage
 
